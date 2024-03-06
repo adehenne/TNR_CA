@@ -67,6 +67,8 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.click(findTestObject('Page_Impr_Enr_Contrat/bouton_enregistrer'))
 
+WebUI.verifyElementPresent(findTestObject('Page_Impr_Enr_Contrat/message_succes_enr_contrat'), 0)
+
 WebUI.click(findTestObject('Menu/bouton_deconnexion'))
 
 WebUI.closeBrowser()

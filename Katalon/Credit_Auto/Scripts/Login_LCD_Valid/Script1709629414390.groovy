@@ -31,5 +31,7 @@ WebUI.setMaskedText(findTestObject('Object Repository/Page_Authentification/cham
 
 WebUI.click(findTestObject('Object Repository/Page_Authentification/bouton_connexion'))
 
+WebUI.verifyElementText(findTestObject('Page_Bienvenue/message_bienvenue'), message_bienvenue)
+
 WebUI.click(findTestObject('Menu/bouton_deconnexion'))
 

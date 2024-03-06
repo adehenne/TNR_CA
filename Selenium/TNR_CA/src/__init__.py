@@ -1,2 +1,2 @@
 from src.pages.CuraHomePage import HomePage
-from src.pages.CuraSidebarMenu import SideBarMenu
+from src.pages.Menu import Menu

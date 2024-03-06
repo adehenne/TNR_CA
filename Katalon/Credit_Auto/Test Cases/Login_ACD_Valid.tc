@@ -17,6 +17,12 @@
       <value></value>
       <variableId>69c9b312-dfb8-415f-8846-12a816a62861</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1589073c-4466-4fd2-baba-47d0e0e185b7</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'acd'</defaultValue>
       <description></description>
@@ -30,5 +36,12 @@
       <id>69c9b312-dfb8-415f-8846-12a816a62861</id>
       <masked>false</masked>
       <name>pw</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bienvenue sur l\'application Crédit Auto'</defaultValue>
+      <description></description>
+      <id>1589073c-4466-4fd2-baba-47d0e0e185b7</id>
+      <masked>false</masked>
+      <name>message_bienvenue</name>
    </variable>
 </TestCaseEntity>

@@ -1,7 +1,7 @@
 from seleniumpagefactory.Pagefactory import PageFactory
 
 
-class PageRechercheClient(PageFactory):
+class PageSimulation(PageFactory):
     def __init__(self, driver):
         super().__init__()
         self.driver = driver

@@ -1,7 +1,7 @@
 from seleniumpagefactory.Pagefactory import PageFactory
 
 
-class HomePage(PageFactory):
+class PageAccueil(PageFactory):
     def __init__(self, driver):
         super().__init__()
         self.driver = driver

@@ -19,14 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.click(findTestObject('Object Repository/Page_Accueil/bouton_acces_auth'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Authentification/champs_username'), 
-    user)
+WebUI.setText(findTestObject('Object Repository/Page_Authentification/champs_username'), user)
 
 WebUI.setMaskedText(findTestObject('Object Repository/Page_Authentification/champs_password'), pw)
 
 WebUI.click(findTestObject('Object Repository/Page_Authentification/bouton_connexion'))
+
+WebUI.click(findTestObject('Menu/bouton_deconnexion'))
 
